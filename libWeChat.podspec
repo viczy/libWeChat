@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.requires_arc        = true
 
   s.source              = { :git=> "https://github.com/viczy/libWeChat.git", :tag => s.version.to_s }
-  s.source_files        = 'libWeChat/*.{h,m}' 
-  s.public_header_files = 'libWeChat/*.h'
-  s.vendored_libraries  = 'libWeChat/libWeChatSDK.a'
+  s.source_files        = 'libWeChatSDK/*.{h,m}' 
+  s.public_header_files = 'libWeChatSDK/*.h'
+  s.vendored_libraries  = 'libWeChatSDK/libWeChatSDK.a'
   s.frameworks          = 'SystemConfiguration'
   s.libraries           = 'sqlite3', 'z'
 end
