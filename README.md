@@ -2,4 +2,5 @@
 微信的SDK
 
 ## pod
-pod 'libWeChat', 'git@github.com:viczy/libWeChat.git'
+
+  pod 'libWeChat', :git => 'https://github.com/viczy/libWeChat.git'
