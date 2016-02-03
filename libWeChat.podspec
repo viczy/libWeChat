@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                = "libWeibo"
+  s.name                = "libWeChat"
   s.version             = "1.6"
   s.summary             = "The Official iOS SDK WeChat Open API."
   s.homepage            = "https://open.weixin.qq.com"
